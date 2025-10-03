@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "YoungSerif";
+    src: url("./Young_Serif/YoungSerif-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OutfitRegular";
+    src: url("Outfit/static/Outfit-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OutfitMedium";
+    src: url("./Outfit/static/Outfit-Medium.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "OutfitBold";
+    src: url("./Outfit/static/Outfit-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
