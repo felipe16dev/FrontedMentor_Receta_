@@ -179,3 +179,41 @@ h1{
         }
     }
 }
+
+@media (max-width: 430px){
+    main{
+        padding: 0;
+    }
+
+    .container-article{
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .header *:not(img){
+        padding: 1rem 1.5rem;
+    }
+
+    img{
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 0;
+    }
+
+    h1{
+        margin-bottom: 0;
+    }
+
+    .header p{
+    margin-top: -15px;
+    margin-bottom: 0;
+    }
+
+    .preparation, .ingredients, .instructions, .nutrition{
+        padding: 1rem 1.5rem;
+    }
+
+    .nutrition, .ingredients, .instructions{
+        margin: 0;
+    }
+}
